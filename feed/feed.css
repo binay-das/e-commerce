@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+header .upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 70px; */
+    height: fit-content;
+    padding: 10px 20px;
+    /* border: 2px solid; */
+    
+
+}
+header .upper img{
+    /* border: 2px solid; */
+    width: 50px;
+    height: 50px;
+}
+header .upper input {
+    height: 50px;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: antiquewhite;
+    padding: 0 10px;
+}
+header .upper .right{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid; */
+}
+header .upper .right .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px;
+}
+header .upper .right img{
+    width: 40px;
+    height: 40px;
+}
+header .lower {
+    height: fit-content;
+    padding: 10px 20px;
+    /* border: 2px solid; */
+    margin-top: 5px;
+}
+header .lower ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+
+}
+header .lower ul li {
+    /* border: 2px solid; */
+    padding: 5px 10px;
+}
+header .lower ul li a{
+    text-decoration: none;
+    color: rgb(63, 61, 61);
+    font-size: 20px;
+}
